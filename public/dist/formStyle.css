@@ -1,0 +1,116 @@
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+  html {
+    height: 170;
+    background:linear-gradient(#8d8d8d, #292828);
+    padding: 40px 450px;
+
+    }
+
+body {
+
+    width: 600px;
+    height: 1300px;
+    width: 110%;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: montserrat, arial, verdana;
+    background-color: #ffffff;
+}
+
+/*form styles*/
+#msform {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px 30px;
+    
+    }
+
+#msform fieldset {
+background: white;
+border: 0 none;
+border-radius: 3px;
+box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+padding: 20px 30px;
+box-sizing: border-box;
+width: 80%;
+margin: 0 10%;
+
+/*stacking fieldsets above each other*/
+position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+    }
+
+/*inputs*/
+#msform input, #msform textarea {
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 3px;
+margin-bottom: 10px;
+width: 100%;
+box-sizing: border-box;
+font-family: montserrat;
+color: #2C3E50;
+font-size: 13px;
+}
+
+/*buttons*/
+#msform .load-button, #msform .back-button {
+    width: 100px;
+    height: auto;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    }
+
+#msform .load-button {
+    background: #27AE60;
+    }
+
+#msform .back-button {
+    background: #c9373e;
+    text-align: center;
+    }  
+
+#msform .load-button:hover, #msform .load-button:focus {
+box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+#msform .back-button:hover, #msform .back-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #c9373e;
+    }
+
+/*headings*/
+h1 {
+    padding: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    }
+
+label {
+font-weight: normal;
+font-size: 15px;
+color: #666;
+margin-bottom: 20px;
+}
+

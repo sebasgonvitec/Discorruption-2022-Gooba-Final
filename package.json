@@ -1,0 +1,29 @@
+{
+  "name": "discorruption-2022-gooba",
+  "version": "1.0.0",
+  "description": "Data upload Discorruption",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebasgonvitec/Discorruption-2022-Gooba.git"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "iamge"
+  ],
+  "author": "Gooba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebasgonvitec/Discorruption-2022-Gooba/issues"
+  },
+  "homepage": "https://github.com/sebasgonvitec/Discorruption-2022-Gooba#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nedb": "^1.8.0"
+  }
+}

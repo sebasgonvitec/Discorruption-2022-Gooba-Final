@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Captcha</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- Link al css -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <div class="center">
+            <img id="headerImage" src="/images/Untitled_Artwork 3.png" >
+            <!-- Titulo del captcha -->
+            <h1 id="captchaHeader">Nos importa tu privacidad</h1>
+            <h2 id="captchaHeader">Resuelve el siguiente captcha para confirmar que no eres un bot</h2>
+            <div id="captchaBackground">
+                <!-- Texto del captcha -->
+                <canvas id="captcha">captcha text</canvas>
+                <!-- Textbox donde el usuario escribe el captcha -->
+                <input id="textBox" type="text" name="text">
+                <div id="buttons">
+                    <!-- Boton para ingresar la informacion y checar si esta bien -->
+                    <button id="submitButton" type="submit">Submit</button>
+                    <!-- Boton para volver a cargar el captcha -->
+                    <button id="refreshButton" type="submit">Refresh</button>
+                </div>
+                <!-- Display del output de acuerdo a lo ingresado -->
+                <span id="output"></span>
+            </div>
+        </div>
+        <!-- Link al script -->
+        <script src="captcha_script.js"></script>
+    </body>
+</html>

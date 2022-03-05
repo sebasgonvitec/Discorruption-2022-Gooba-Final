@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/formCStyle.css" />
+    
+    <title>Contáctanos | Cardinal </title>
+
+  </head>
+    <body>
+    <form id="msform">
+    <h1>Contáctanos</h1>
+
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="datos_nombre" name="nombre"><br>
+        
+    <label for="correo">Correo Electrónico:</label><br>
+    <input type="text" id="datos_correo" name="correo" required><br>
+
+    <h2> Comentarios </h2>
+    <label for="coment">Dudas o sugerencias:</label><br>
+    <input type="text" id="coment" name="coment" required><br>
+
+    <input type="submit" class="load-button" value="Enviar">
+    <input class="back-button" value="Regresar" onclick="location.href='index.html';"/>
+    
+    </form>
+    </body>
+</html>
